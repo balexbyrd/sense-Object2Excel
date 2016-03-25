@@ -30,7 +30,7 @@ I've tested this in Qlik Sense 2.1.1 and Qlik Sense 2.2.3 and it works in Google
 
 The exportData method in Qlik Sense is a magical function that I believe still has room for improvement. Large volumes of data have been known to be difficult to push to an excel file. For example, there's 1 million rows over 15 columns that I want to export. It'll export the file without an error, but only 100K rows will show up :( I think this will be updated in future versions, just keep this in mind.
 
-### If using this from Qlik Sense Desktop, you must navigate to the application in a browser http://localhost:4848/hub/ in order for this to work.
+### If using this from Qlik Sense Desktop, you must navigate to the application in a browser (<http://localhost:4848/hub/>) in order for this to work.
 
 ### You must allow pop-ups in your browser
 
