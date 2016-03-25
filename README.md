@@ -1,4 +1,4 @@
-# sense-oObject
+# sense-Object2Excel
 Automatically export any Qlik Sense object to excel, hidden or visible!
 
 ![Screenshot](https://raw.githubusercontent.com/balexbyrd/img/master/eObjectExcel.PNG)
