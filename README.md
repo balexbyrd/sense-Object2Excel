@@ -2,6 +2,7 @@
 Automatically export any Qlik Sense object to excel, hidden or visible!
 
 ![Screenshot](https://raw.githubusercontent.com/balexbyrd/img/master/eObjectExcel.PNG)
+![Screenshot](https://raw.githubusercontent.com/balexbyrd/img/master/oObject_definitions.PNG)
 ![Screenshot](https://raw.githubusercontent.com/balexbyrd/img/master/eObjectExcel_buttons.PNG)
 
 ## Installation
