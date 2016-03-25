@@ -1,0 +1,14 @@
+{
+	"type": "mashup",
+	"name": "eExcel.html",
+	"version": "1.0.0",
+	"description": "Webpage used to export to excel",
+	"homepage": "",
+	"author": "Alex Byrd",
+	"keywords": "qlik-sense, mashup",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=2.1.x"
+	}
+}
