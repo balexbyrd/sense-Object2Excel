@@ -17,7 +17,7 @@ Automatically export any Qlik Sense object to excel, hidden or visible!
 	* **Tooltip** - text that pops up in the tooltip when a user scrolls over the button.
 	* **Tab Name** - what's is shown in the tab name when the new tab is created.
 
-> **Pro Tip:** Create your object in the UI > Find Object ID and add to oObject > Add object to master library > Remove object from UI. Now you can access hidden or large visuals in new tabs! 
+> **Pro Tip:** Create your object in the UI > Add object to master library > Find Object ID and add to oObject > Remove object from UI. Now you can access hidden or large visuals in new tabs! 
 	
 ## Usage
 
