@@ -12,7 +12,6 @@ Automatically export any Qlik Sense object to excel, hidden or visible!
 3. Configure properties (Object ID, New Window URL, Button Name, Tooltip, Tab Name)
 
 	* **Object ID** - each object added to a Qlik Sense sheet has an object ID. This object is what shows in the tab that's created
-	* **New Window URL** - if using Qlik Sense Desktop, the URL will be http://localhost:4848/extensions/eExcel.html/eExcel.html . Replace localhost:4848 if on Qlik Sense server
 	* **Button Name** - the name of the button in the UI
 	* **Tooltip** - text that pops up in the tooltip when a user scrolls over the button.
 	* **Tab Name** - what's is shown in the tab name when the new tab is created.
@@ -27,7 +26,7 @@ Behind the scenes, the application name/hash is passed from parent tab to child 
 
 ## Limitations
 
-I've tested this in Qlik Sense 2.1.1 and Qlik Sense 2.2.3 and it works in Google Chrome. 
+I've tested this in Qlik Sense 2.1.1/Qlik Sense 2.2.3 and it works in Google Chrome on both the desktop and server. 
 
 The exportData method in Qlik Sense is a magical function that I believe still has room for improvement. Large volumes of data have been known to be difficult to push to an excel file. For example, there's 1 million rows over 15 columns that I want to export. It'll export the file without an error, but only 100K rows will show up :( I think this will be updated in future versions, just keep this in mind.
 
@@ -38,5 +37,3 @@ The exportData method in Qlik Sense is a magical function that I believe still h
 ## License
 
 MIT
-
-Free to use but keep me on your Christmas list :D
